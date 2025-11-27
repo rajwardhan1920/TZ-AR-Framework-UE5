@@ -7,7 +7,7 @@ The **TZ-AR Framework** is a modular, production-grade AR system built for **Unr
 
 It provides developers with a ready-to-use AR foundation optimized for performance, scalability, and real-world deployment on Android devices supporting ARCore.
 
-This framework is designed, maintained, and used internally by **The Zenith AVGC-XR LLP** for AR/VR pipelines and client-grade production apps.
+This framework is designed, maintained, and used internally by **The Zenith AVGC-XR LLP** for AR pipelines and client-grade production apps.
 
 ---
 
@@ -50,20 +50,16 @@ Full walkthrough, features, and runtime demo:
 # **Repository Structure**
 
 TZ-AR-Framework-UE5/
-│
-├── Config/ # Project configs
-├── Content/
-│ ├── AR/ # AR Blueprints, UI, scripts
-│ ├── UI/ # Mobile UI widgets
-│ ├── Demo/ # Demo scene assets
-│ └── ...
-│
-├── Source/ # C++ modules (if any)
-│
-├── Plugins/ # Optional plugin integrations
-│
-├── TZD_AR_FRAMEWORK.uproject
-└── README.md
+├─ Config/                     # Project configs
+├─ Content/
+│  ├─ AR/                      # AR Blueprints, UI, scripts
+│  ├─ UI/                      # Mobile UI widgets
+│  ├─ Demo/                    # Demo scene assets
+│  └─ ...                      # Other content
+├─ Source/                     # C++ modules (if any)
+├─ Plugins/                    # Optional plugin integrations
+├─ TZD_AR_FRAMEWORK.uproject   # Unreal project file
+└─ README.md
 
 
 ---
